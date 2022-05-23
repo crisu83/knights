@@ -4,7 +4,15 @@ A game of knights.
 
 ## Usage
 
-Run the game
+Clone or download the repository.
+
+Install dependencies:
+
+```sh
+yarn install
+```
+
+Start the game:
 
 ```sh
 yarn start
