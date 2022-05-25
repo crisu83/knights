@@ -35,7 +35,7 @@ function createKnights(names: string[]): Knight[] {
 }
 
 function nextIndex<T>(currentIndex: number, list: T[]) {
-  return currentIndex < list.length - 2 ? currentIndex + 1 : 0;
+  return currentIndex < list.length - 1 ? currentIndex + 1 : 0;
 }
 
 function randomInRange([min, max]: number[]) {
